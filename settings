@@ -1,0 +1,113 @@
+{
+    "editor.fontSize": 20,
+    "editor.lineNumbers": "relative",
+    "editor.minimap.scale": 2,
+    "editor.minimap.autohide": true,
+    "files.autoSave": "onFocusChange",
+    "editor.rulers": [
+        {"column": 80,
+         "color": "#787c99"
+        }
+    ],
+    "editor.inlayHints.fontFamily": "Monoid",
+    "terminal.integrated.fontSize": 18,
+    "workbench.layoutControl.enabled": false,
+    "workbench.statusBar.visible": false,
+    "editor.tabSize": 2,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.cursorSurroundingLines": 5,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "breadcrumbs.filePath": "off",
+    "breadcrumbs.showClasses": false,
+    "breadcrumbs.showBooleans": false,
+    "breadcrumbs.showConstants": false,
+    "breadcrumbs.showConstructors": false,
+    "breadcrumbs.showFiles": false,
+    "breadcrumbs.showFunctions": false,
+    "breadcrumbs.showFields": false,
+    "breadcrumbs.showEvents": false,
+    "breadcrumbs.showEnumMembers": false,
+    "breadcrumbs.showEnums": false,
+    "breadcrumbs.showKeys": false,
+    "breadcrumbs.showInterfaces": false,
+    "breadcrumbs.showModules": false,
+    "breadcrumbs.showNamespaces": false,
+    "breadcrumbs.showNull": false,
+    "breadcrumbs.showNumbers": false,
+    "breadcrumbs.showObjects": false,
+    "breadcrumbs.showOperators": false,
+    "breadcrumbs.showPackages": false,
+    "breadcrumbs.showProperties": false,
+    "breadcrumbs.showStrings": false,
+    "breadcrumbs.showStructs": false,
+    "breadcrumbs.showTypeParameters": false,
+    "breadcrumbs.showVariables": false,
+    "breadcrumbs.symbolPath": "off",
+    "breadcrumbs.icons": false,
+    "breadcrumbs.showArrays": false,
+    "background.windowBackgrounds": [
+        "c:/Users/Michael/Pictures/automa.png",
+        "c:/Users/Michael/Pictures/Screenshots/bg.jpg",
+        "c:/Users/Michael/Pictures/Screenshots/automa.png",
+        "c:/Users/Michael/Pictures/bg3.png",
+        "c:/Users/Michael/Pictures/bg.png",
+        "c:/Users/Michael/Pictures/BG/bg5.png"
+    ],
+    "editor.wordWrap": "on",
+    "terminal.integrated.tabs.enabled": false,
+    "editor.renderWhitespace": "none",
+    "window.commandCenter": false,
+    "editor.lightbulb.enabled": false,
+    "editor.renderLineHighlight": "all",
+    "editor.colorDecorators": false,
+    "terminal.integrated.cursorBlinking": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "[scss]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "workbench.activityBar.visible": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "turboConsoleLog.logMessagePrefix": "",
+    "workbench.settings.applyToAllProfiles": [
+        "turboConsoleLog.logMessagePrefix"
+    ],
+    "html.format.wrapLineLength": 180,
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "window.menuBarVisibility": "compact",
+    "editor.fontFamily": "JetBrainsMono",
+    "terminal.integrated.fontFamily": "Space Mono",
+    "terminal.integrated.fontWeight": "normal",
+    "workbench.editor.showTabs": false,
+    "zenMode.hideTabs": false,
+    "terminal.integrated.fontWeightBold": "normal",
+    "apc.stylesheet": {
+       ".monaco-breadcrumbs .monaco-breadcrumb-item": "display: none !important",
+       ".title-actions": "display: none",
+    },
+    "workbench.colorTheme": "Tokyo Night",
+    "workbench.tips.enabled": false,
+    "workbench.editor.untitled.hint": "hidden",
+}
