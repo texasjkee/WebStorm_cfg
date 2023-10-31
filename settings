@@ -1,5 +1,6 @@
 {
     "editor.fontSize": 20,
+    "editor.overviewRulerBorder": false,
     "editor.lineNumbers": "relative",
     "editor.minimap.scale": 2,
     "editor.minimap.autohide": true,
@@ -12,7 +13,6 @@
     "editor.inlayHints.fontFamily": "Monoid",
     "terminal.integrated.fontSize": 18,
     "workbench.layoutControl.enabled": false,
-    "workbench.statusBar.visible": false,
     "editor.tabSize": 2,
     "editor.hideCursorInOverviewRuler": true,
     "editor.cursorSurroundingLines": 5,
@@ -47,19 +47,14 @@
     "breadcrumbs.icons": false,
     "breadcrumbs.showArrays": false,
     "background.windowBackgrounds": [
-        "c:/Users/Michael/Pictures/automa.png",
-        "c:/Users/Michael/Pictures/Screenshots/bg.jpg",
-        "c:/Users/Michael/Pictures/Screenshots/automa.png",
-        "c:/Users/Michael/Pictures/bg3.png",
-        "c:/Users/Michael/Pictures/bg.png",
-        "c:/Users/Michael/Pictures/BG/bg5.png"
+        "c:/Users/Michael/Pictures/BG/bg1.png"
     ],
     "editor.wordWrap": "on",
     "terminal.integrated.tabs.enabled": false,
     "editor.renderWhitespace": "none",
     "window.commandCenter": false,
     "editor.lightbulb.enabled": false,
-    "editor.renderLineHighlight": "all",
+    "editor.renderLineHighlight": "none",
     "editor.colorDecorators": false,
     "terminal.integrated.cursorBlinking": true,
     "diffEditor.ignoreTrimWhitespace": false,
@@ -96,18 +91,36 @@
     "[css]": {
         "editor.defaultFormatter": "vscode.css-language-features"
     },
-    "window.menuBarVisibility": "compact",
-    "editor.fontFamily": "JetBrainsMono",
-    "terminal.integrated.fontFamily": "Space Mono",
-    "terminal.integrated.fontWeight": "normal",
-    "workbench.editor.showTabs": false,
+    "editor.fontFamily": "JatBrainsMono",
+    "terminal.integrated.fontFamily": "Cascadia Code",
+    "terminal.integrated.fontWeight": "bold",
     "zenMode.hideTabs": false,
-    "terminal.integrated.fontWeightBold": "normal",
+    "terminal.integrated.fontWeightBold": "bold",
     "apc.stylesheet": {
-       ".monaco-breadcrumbs .monaco-breadcrumb-item": "display: none !important",
-       ".title-actions": "display: none",
+        ".monaco-icon-label>.monaco-icon-label-container>.monaco-icon-description-container>.label-description": { "display": "none" },
+        ".monaco-workbench .part>.composite.title>.title-actions": {"display": "none"},
+        ".monaco-workbench.noeditorarea .part.panel.bottom .composite.title": {"height": "0"}
     },
-    "workbench.colorTheme": "Tokyo Night",
+    "apc.font.family": "Cascadia Code",
     "workbench.tips.enabled": false,
-    "workbench.editor.untitled.hint": "hidden",
+    "workbench.editor.empty.hint": "hidden",
+    "breadcrumbs.enabled": false,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "workbench.editor.showTabs": false,
+    "workbench.statusBar.visible": false,
+    "window.menuBarVisibility": "compact",
+    "explorer.compactFolders": false,
+    "workbench.colorTheme": "Default High Contrast",
+    "background.backgroundOpacity": [
+        0.8,
+        0.8,
+        0.9,
+        0.9
+    ],
+    "editor.linkedEditing": true,
+    "editor.guides.indentation": false, 
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.editor.pinnedTabSizing": "shrink"
 }
