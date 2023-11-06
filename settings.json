@@ -29,8 +29,8 @@
         "asvetliakov.vscode-neovim": 1
     },
     "apc.stylesheet": {
-        ".monaco-workbench .part.panel.bottom .composite.title": "height: 0",
+        ".monaco-workbench .part.panel.bottom .composite.title": "height: 0"
         // ".monaco-action-bar .actions-container": "display: none", //explorer 
     },
-    "workbench.startupEditor": "none",
+    "workbench.startupEditor": "none"
 }
