@@ -1,0 +1,24 @@
+{
+	"React TypeScript Component": 
+	{
+	  "prefix": "rct",
+	  "body": [
+		"import { classNames } from \"shared/lib/classNames/classNames\";",
+		"",
+		"import style from \"./${2:$TM_FILENAME_BASE}.module.scss\";",
+		""
+		"interface ${2:$TM_FILENAME_BASE}Props {",
+		"	className?: string;"
+		"};",
+		"",
+		"export const ${2:$TM_FILENAME_BASE} = ({ className }: ${2:$TM_FILENAME_BASE}Props) => {",
+		"    return (",
+		"        <div className={classNames(style.${2:$TM_FILENAME_BASE}, {}, [className])}>",
+		"       ",
+		"        </div>",
+		"    )",
+		"};"
+	  ],
+	  "description": "React TypeScript Component"
+	}
+}

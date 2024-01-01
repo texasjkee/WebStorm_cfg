@@ -1,0 +1,14 @@
+{
+	"Test TypeSctipt": 
+	{
+	  "body": [
+		"describe('${2:$TM_FILENAME_BASE}', () => {",
+		"    test('', () => {",
+		"        ",
+		"    })",
+		"})"
+	  ],
+	  "prefix": "tst",
+	  "description": "Test"
+	}
+}

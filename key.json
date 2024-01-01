@@ -1,14 +1,12 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
     {
-        "key": "alt+t",
-        "command": "workbench.action.terminal.toggleTerminal",
-        "when": "terminal.active"
+        "key": "alt+q",
+        "command": "workbench.action.toggleSidebarVisibility"
     },
     {
-        "key": "ctrl+`",
-        "command": "-workbench.action.terminal.toggleTerminal",
-        "when": "terminal.active"
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
     },
     {
         "key": "alt+e",
@@ -21,14 +19,6 @@
         "when": "viewContainer.workbench.view.explorer.enabled"
     },
     {
-        "key": "alt+q",
-        "command": "workbench.action.toggleSidebarVisibility"
-    },
-    {
-        "key": "ctrl+b",
-        "command": "-workbench.action.toggleSidebarVisibility"
-    },
-    {
         "key": "alt+x",
         "command": "workbench.action.closeActiveEditor"
     },
@@ -37,34 +27,14 @@
         "command": "-workbench.action.closeActiveEditor"
     },
     {
-        "key": "f2",
-        "command": "debug.renameWatchExpression",
-        "when": "watchExpressionsFocused"
+        "key": "alt+t",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
     },
     {
-        "key": "f2",
-        "command": "-debug.renameWatchExpression",
-        "when": "watchExpressionsFocused"
-    },
-    {
-        "key": "f2",
-        "command": "debug.setVariable",
-        "when": "variablesFocused"
-    },
-    {
-        "key": "f2",
-        "command": "-debug.setVariable",
-        "when": "variablesFocused"
-    },
-    {
-        "key": "alt+j",
-        "command": "editor.action.moveLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+down",
-        "command": "-editor.action.moveLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
+        "key": "ctrl+`",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
     },
     {
         "key": "alt+k",
@@ -77,14 +47,14 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "tab",
-        "command": "editor.action.inlineSuggest.commit",
-        "when": "inlineSuggestionHasIndentationLessThanTabSize && inlineSuggestionVisible && !editorTabMovesFocus"
+        "key": "alt+j",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "tab",
-        "command": "-editor.action.inlineSuggest.commit",
-        "when": "inlineSuggestionHasIndentationLessThanTabSize && inlineSuggestionVisible && !editorTabMovesFocus"
+        "key": "alt+down",
+        "command": "-editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
     },
     {
         "key": "alt+h",
@@ -107,26 +77,6 @@
         "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
     },
     {
-        "key": "numpad5",
-        "command": "workbench.action.terminal.focusTabs",
-        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported || terminalHasBeenCreated && terminalTabsFocus || terminalProcessSupported && terminalTabsFocus"
-    },
-    {
-        "key": "ctrl+shift+\\",
-        "command": "-workbench.action.terminal.focusTabs",
-        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported || terminalHasBeenCreated && terminalTabsFocus || terminalProcessSupported && terminalTabsFocus"
-    },
-    {
-        "key": "shift+alt+[",
-        "command": "notebook.fold",
-        "when": "notebookEditorFocused && !inputFocus && activeEditor == 'workbench.editor.notebook'"
-    },
-    {
-        "key": "ctrl+shift+[",
-        "command": "-notebook.fold",
-        "when": "notebookEditorFocused && !inputFocus && activeEditor == 'workbench.editor.notebook'"
-    },
-    {
         "key": "shift+alt+[",
         "command": "editor.fold",
         "when": "editorTextFocus && foldingEnabled"
@@ -135,16 +85,6 @@
         "key": "ctrl+shift+[",
         "command": "-editor.fold",
         "when": "editorTextFocus && foldingEnabled"
-    },
-    {
-        "key": "shift+alt+]",
-        "command": "notebook.unfold",
-        "when": "notebookEditorFocused && !inputFocus && activeEditor == 'workbench.editor.notebook'"
-    },
-    {
-        "key": "ctrl+shift+]",
-        "command": "-notebook.unfold",
-        "when": "notebookEditorFocused && !inputFocus && activeEditor == 'workbench.editor.notebook'"
     },
     {
         "key": "shift+alt+]",
@@ -157,8 +97,87 @@
         "when": "editorTextFocus && foldingEnabled"
     },
     {
+        "key": "ctrl+alt+x",
+        "command": "workbench.action.closeEditorsInGroup"
+    },
+    {
+        "key": "ctrl+k w",
+        "command": "-workbench.action.closeEditorsInGroup"
+    },
+    {
+        "key": "ctrl+shift+`",
+        "command": "workbench.action.terminal.new",
+        "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+    },
+    {
+        "key": "ctrl+shift+`",
+        "command": "-workbench.action.terminal.new",
+        "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.terminal.killEditor",
+        "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated || terminalEditorFocus && terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.terminal.killEditor",
+        "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated || terminalEditorFocus && terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "delete",
+        "command": "workbench.action.terminal.killActiveTab",
+        "when": "terminalHasBeenCreated && terminalTabsFocus || terminalIsOpen && terminalTabsFocus || terminalProcessSupported && terminalTabsFocus"
+    },
+    {
+        "key": "delete",
+        "command": "-workbench.action.terminal.killActiveTab",
+        "when": "terminalHasBeenCreated && terminalTabsFocus || terminalIsOpen && terminalTabsFocus || terminalProcessSupported && terminalTabsFocus"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "workbench.action.terminal.split",
+        "when": "terminalFocus"
+    },
+    {
         "key": "ctrl+n",
-        "command": "workbench.files.action.createFileFromExplorer",
-        "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
-    }
+        "command": "workbench.action.terminal.new",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.terminal.new",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+j",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+k",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+g",
+        "command": "workbench.view.scm",
+        "when": "workbench.scm.active"
+    },
+    {
+        "key": "alt+/",
+        "command": "workbench.files.action.collapseExplorerFolders",
+        "when": ""
+    },
+
+    // {
+    //     "key": "f3",
+    //     "command": "workbench.action.terminal.renameActiveTab",
+    //     "when": "terminalFocus"
+    // }
 ]

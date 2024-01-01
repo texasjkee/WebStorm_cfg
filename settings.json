@@ -1,36 +1,52 @@
 {
     "files.autoSave": "onFocusChange",
+    "breadcrumbs.enabled": false,
     "editor.fontSize": 20,
     "editor.lineNumbers": "relative",
-    "terminal.integrated.fontSize": 20,
-    "terminal.integrated.tabs.enabled": false,
-    "editor.rulers": [ {"column": 80, "color": "#787c99" } ],
-    "breadcrumbs.enabled": false,
+    "editor.renderLineHighlight": "none",
+    "editor.rulers": [
+        {
+            "column": 80,
+            "color": "#787c99"
+        }
+    ],
     "editor.minimap.scale": 2,
     "editor.minimap.autohide": true,
     "editor.guides.indentation": false, //lines inside functions
     "editor.lightbulb.enabled": false,
     "editor.scrollbar.vertical": "hidden",
     "editor.overviewRulerBorder": false,
-    "workbench.tree.renderIndentGuides": "none",   
+    "editor.smoothScrolling": true,
+    "editor.linkedEditing": true,
+    "editor.wordWrap": "on",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.tips.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.activityBar.location": "hidden",
+    "workbench.statusBar.visible": false,
+    "terminal.integrated.fontSize": 20,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,
-    "editor.linkedEditing": true,
-    "explorer.compactFolders": false, 
-    "workbench.statusBar.visible": false,
-    "editor.cursorSmoothCaretAnimation": "on",
-    "workbench.tips.enabled": false,
-    
-    //Theme
-    "workbench.colorTheme": "Tokyo Night",
-
-    //Extensions
+    //Neovim
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
     },
+    //Customize
     "apc.stylesheet": {
-        ".monaco-workbench .part.panel.bottom .composite.title": "height: 0"
-        // ".monaco-action-bar .actions-container": "display: none", //explorer 
+        ".monaco-workbench .part>.title>.title-actions .action-label": "display: none", //workspace sidebar
+        ".monaco-workbench.nomaineditorarea .part.panel.bottom .composite.title": "display: none" //terminal
     },
-    "workbench.startupEditor": "none"
+    //Turbo console
+    "turboConsoleLog.logMessagePrefix": "",
+    //Theme
+    "workbench.colorTheme": "Tokyo Night",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.inlayHints.enabled": "off",
+    "terminal.integrated.tabs.location": "left",
+    "terminal.integrated.tabs.enabled": false,
+    "git.enableSmartCommit": true,
+    "window.menuBarVisibility": "compact",
 }
